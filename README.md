@@ -1,19 +1,71 @@
-# React + Vite
+# E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple full-stack E-Commerce Web Application developed using React.js, Spring Boot, and PostgreSQL. The application allows users to browse products, add products to a shopping cart, place orders, and store order information in the database.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Customer Features
+- Simple Login
+- Browse available products
+- View product details
+- Add products to cart
+- View shopping cart
+- View cart total
+- Place orders
+- Store order details in PostgreSQL
 
-## React Compiler
+### Backend Features
+- RESTful APIs using Spring Boot
+- Product management APIs
+- Order management APIs
+- PostgreSQL database integration
+- Spring Data JPA for database operations
+- CORS support for frontend-backend communication
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Technologies Used
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+### Frontend
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+- React Router
 
-## Expanding the Oxlint configuration
+### Backend
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Database
+- PostgreSQL
+
+### Tools
+- IntelliJ IDEA
+- Visual Studio Code
+- Git
+- GitHub
+- Postman
+
+## Project Structure
+
+```text
+Ecommerce-Java-Full-stack-application-
+│
+├── src/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── Cart.jsx
+│   │   └── Login.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+│
+├── backend/
+│   └── Spring Boot source files
+│
+├── package.json
+├── vite.config.js
+└── README.md
