@@ -1,0 +1,28 @@
+.page {
+  padding: 50px 8%;
+  min-height: 70vh;
+}
+
+.page h1 {
+  margin-bottom: 30px;
+}
+
+.login-box {
+  background: white;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-box button {
+  width: 100%;
+}
